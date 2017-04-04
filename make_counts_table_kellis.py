@@ -2,8 +2,8 @@ import pandas
 import glob
 import numpy as np
 
-DATA_DIR = '../enhancer_data/kellis/raw'
-OUT_DIR = '../enhancer_data/kellis/counts'
+DATA_DIR = '../data/kellis/raw'
+OUT_DIR = '../data/kellis/counts'
 
 cells = ["HepG2", "K562"]
 designs = ["ScaleUpDesign1", "ScaleUpDesign2"]
